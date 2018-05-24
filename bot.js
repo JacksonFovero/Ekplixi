@@ -24,7 +24,7 @@ client.on("ready", () => {
 	console.log(" / /___/ ,< / /_/ / / />  </ /  ".rainbow.bold);
 	console.log("/_____/_/|_/ .___/_/_/_/|_/_/   ".rainbow.bold);
 	console.log("          /_/                   ".rainbow.bold);
-	console.log("████████████████████████████████".rainbow.white);
+	console.log("████████████████████████████████".rainbow.bold);
 	console.log("By JacksonFovero.".cyan.bold.trap);
 	console.warn("Ekplixi is in it's alpha phase. The console has not been set up as of " + pack.version + ".");
 	console.log(" ");
