@@ -76,7 +76,7 @@ client.on("message", message => {
 			.setTitle("Information")
 			.setColor(settings.color)
 			.setDescription("Ekplixi is a multipurpose Discord bot with insane customization. It is also open source, which can be found here: https://github.com/JacksonFovero/Alexis.")
-			.setFooter(settings.botName)
+			.setFooter("Build status: https://travis-ci.com/JacksonFovero/Ekplixi")
 			.setTimestamp();
 		if (settings.botID === "419563862132785163") {
 			message.channel.send(infoMain);
