@@ -146,7 +146,7 @@ client.on("message", message => {
 			return;
 		}
 		client.user.setUsername(settings.botName);
-		console.log(Your bot name has been set to " + settings.botName.cyan + ".");
+		console.log("Your bot name has been set to " + settings.botName.cyan + ".");
 		message.react("✅");
 	}
 	if (command === "setavatar") {
