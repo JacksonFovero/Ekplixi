@@ -3,9 +3,7 @@
 // BEGIN VARIABLES
 const Discord = require("discord.js");
 const client = new Discord.Client();
-if (TRAVIS !== true) {
-	var settings = require("./settings.json");
-}
+const settings = require("./settings.json");
 const pack = require("./package.json");
 const prefix = settings.prefix;
 const testing = settings.testing;
