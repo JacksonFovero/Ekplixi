@@ -7,7 +7,7 @@ Before we begin, make sure you have an application with a bot account created by
 **botID:** Can be found in your app settings on [Discord](https://discordapp.com/developers/applications/me). It is located in the `App Details` section.\
 **botName:** Also very simple, the name your bot should go by.\
 **botShortName:** Even simpler, if there is a shorter version of your bot's name, put it here.\
-**avatar:** This can either be a directory to your bots image on the local system, or a direct link to an image. For example: https://i.imgur.com/IgdGUhP.png\
+**avatar:** This can either be a directory to your bots image on the local system, or a direct link to an image. For example: [here's mine](https://i.imgur.com/IgdGUhP.png)\
 **color:** The main color for your bot.\
 **errorColor:** The error color for your bot. Recommended to be red.\
 **successColor:** The success color for your bot. Recommended to be green.\
