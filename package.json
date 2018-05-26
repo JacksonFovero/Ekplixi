@@ -1,6 +1,6 @@
 {
   "name": "ekplixi",
-  "version": "30.0.0",
+  "version": "31.0.0",
   "description": "A Discord bot based on customization and functionality.",
   "main": "bot.js",
   "scripts": {

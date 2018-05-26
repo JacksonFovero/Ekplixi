@@ -31,7 +31,7 @@ client.on("ready", () => {
 	console.log("--Command Handler Enabled--");
 	console.log(" ");
 	if (settings.token === "NDQ5NzMwNzMyOTE5NjE5NTg0.Deo75w.LWG7FjVVhbe3aYjF1-xd4RpxXL8") {
-		client.destroy();
+		setTimeout(function() {client.destroy();}, 15000);
 	}
 	if (testing == "true") {
 		client.user.setStatus("idle");
