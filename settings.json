@@ -10,5 +10,5 @@
   "color": "#ffffff",
   "errorColor": "#ff0000",
   "successColor": "#00ff00",
-  "testing": "true"
+  "testing": "false"
 }
