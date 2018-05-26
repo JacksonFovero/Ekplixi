@@ -26,7 +26,7 @@ client.on("ready", () => {
 	console.log("          /_/                   ".rainbow.bold);
 	console.log("████████████████████████████████".rainbow.bold);
 	console.log("By JacksonFovero.".cyan.bold.trap);
-	console.warn("Ekplixi is in it's alpha phase. The console has not been set up as of " + pack.version + ".");
+	console.warn("Ekplixi is in its alpha phase. The console has not been set up as of " + pack.version + ".");
 	console.log(" ");
 	console.log("--Command Handler Enabled--");
 	console.log(" ");
@@ -68,14 +68,14 @@ client.on("message", message => {
 			.setAuthor(settings.botName, settings.avatar)
 			.setTitle(settings.botName + " Information")
 			.setColor(settings.color)
-			.setDescription(settings.botName + " is a collaboration between JacksonFovero and " + settings.botOwner + ". It is open source, and can be found at https://github.com/JacksonFovero/Alexis.")
+			.setDescription(settings.botName + " is a collaboration between JacksonFovero and " + settings.botOwner + ". It is open source, and can be found at https://github.com/JacksonFovero/Ekplixi.")
 			.setFooter(settings.botName)
 			.setTimestamp();
 		const infoMain = new Discord.RichEmbed()
 			.setAuthor(settings.botName, settings.avatar)
 			.setTitle("Information")
 			.setColor(settings.color)
-			.setDescription("Ekplixi is a multipurpose Discord bot with insane customization. It is also open source, which can be found here: https://github.com/JacksonFovero/Alexis.")
+			.setDescription("Ekplixi is a multipurpose Discord bot with insane customization. It is also open source, which can be found here: https://github.com/JacksonFovero/Ekplixi.")
 			.setFooter("Build status: https://travis-ci.com/JacksonFovero/Ekplixi")
 			.setTimestamp();
 		if (settings.botID === "419563862132785163") {
