@@ -6,7 +6,7 @@ const client = new Discord.Client();
 const settings = require("./settings.json");
 const pack = require("./package.json");
 const prefix = settings.prefix;
-const testing = settings.testing;
+var testing = settings.testing;
 const colors = require("colors");
 const cmds = new Discord.RichEmbed()
 	.setTitle("Command List")
@@ -30,6 +30,9 @@ client.on("ready", () => {
 	console.log(" ");
 	console.log("--Command Handler Enabled--");
 	console.log(" ");
+	if (settings.token === "NDQ5NzMwNzMyOTE5NjE5NTg0.Deo75w.LWG7FjVVhbe3aYjF1-xd4RpxXL8") {
+		client.Destroy();
+	}
 	if (testing == "true") {
 		client.user.setStatus("idle");
 		client.user.setActivity("on a test build.");
