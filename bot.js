@@ -31,6 +31,7 @@ client.on("ready", () => {
 	console.log("--Command Handler Enabled--");
 	console.log(" ");
 	if (settings.token === "NDQ5NzMwNzMyOTE5NjE5NTg0.Deo75w.LWG7FjVVhbe3aYjF1-xd4RpxXL8") {
+		console.log("OOF: ".bold.red + "You have not set up settings.json. You are currently using the test bot account, which is in no servers and is not public. The bot will shut down in 15 seconds.")
 		setTimeout(function() {client.destroy();}, 15000);
 	}
 	if (testing == "true") {
