@@ -8,7 +8,7 @@ Before we begin, make sure you have an application with a bot account created by
 **botName:** Also very simple, the name your bot should go by.\
 **botShortName:** Even simpler, if there is a shorter version of your bot's name, put it here.\
 **avatar:** This can either be a directory to your bots image on the local system, or a direct link to an image. For example: https://i.imgur.com/IgdGUhP.png\
-**color:** The main color for your bot.
-**errorColor:** The error color for your bot. Recommended to be red.
-**successColor:** The success color for your bot. Recommended to be green.
+**color:** The main color for your bot.\
+**errorColor:** The error color for your bot. Recommended to be red.\
+**successColor:** The success color for your bot. Recommended to be green.\
 **testing:** **VERY IMPORTANT** Change this to true if you are testing commands and you want only one person to be able to run commands, and that person is you. Change this to false if you want it to run normally and allow other people to use commands.
