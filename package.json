@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/JacksonFovero/Ekplixi#readme",
   "dependencies": {
-    "colors": "^1.3.0",
+    "chalk": "^2.4.1",
     "discord.js": "^11.3.2"
   }
 }
